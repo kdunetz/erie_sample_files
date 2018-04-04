@@ -1,0 +1,8 @@
+docker images 
+docker pull nginx
+docker ps
+
+docker run
+
+docker exec -it <CONTAINER_ID> /bin/bash
+

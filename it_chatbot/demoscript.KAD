@@ -1,0 +1,29 @@
+THIS DEMO WILL SHOW BUILDING AND RUNNING A TEMPLATIZED APP, WILL SHOW INTEGRATION WITH WATSON, PLUS DO A CANARY DEPLOYMENT TO A NEW VERSION, PLUS DOING A ROLLBACK
+
+Go to Github http://github.com/kdunetz/freedom_chatbot
+
+Normally, we would fork the code and move into your domain, but we will just clone it now for simplicity
+
+git clone https://github.com/kdunetz/freedom_chatbot.git my-chatbot
+
+cd my-chatbot 
+
+Edit setenv.sh and change the NAMESPACE, IMAGE and NAME parameters to your new image and app name
+
+Run ". ./setenv.sh" (Yes..the . in front too)
+
+Run kubectl login for destination environment
+
+Run build_and_deploy.sh
+
+Type some Chatbot commands like: help, intro, add printer, reset password
+
+Edit setenv.sh to change the IMAGE Version to 2.0
+
+Run ". ./setenv.sh"
+
+Edit public/index.html to and change "Reset Chat" button to "Reset Chat 2.0"
+
+Run build_and_rollout.sh to show that the new software is now 2.0
+
+Run rollback.sh and show that the image went back to original (button changed back)
