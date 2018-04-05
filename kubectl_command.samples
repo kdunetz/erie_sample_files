@@ -7,8 +7,8 @@ POD COMMANDS
 kubectl get pods  -n default
 kubectl get pods  -n default -o wide
 kubectl get pods  -n default -o yaml
-kubectl logs <PODNAME>
-kubectl describe pods <PODNAME>
+kubectl logs <PODNAME> -n default
+kubectl describe pods <PODNAME> -n default
 
 
 DEPLOYMENT COMMANDS
@@ -28,3 +28,6 @@ kubectl get configmaps -n default
 kubectl get secrets --namespace default
 kubectl rollout undo deployment/$NAME -n default
 kubectl set image deployment/<OLD_IMAGE> $NAME=<NEW IMAGE> -n default
+
+helm init
+helm list
