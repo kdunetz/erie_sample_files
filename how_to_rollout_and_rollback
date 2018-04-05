@@ -1,0 +1,14 @@
+cd it_chatbot/
+
+Run ./build_and_deploy.sh 
+Show app running in ICP ..Network Access/Services kevin-new-chatbot, Click on Hypertext link next to Node port
+
+vi public/index.html  
+Increment Reset Chat Number By 1
+
+Run ./build_and_rollout.sh 
+Refresh App URL in ICP...and see the number Increment by 1
+
+Run ./rollback.sh 
+Refresh App URL in ICP...and see the number Decrement by 1
+
