@@ -1,0 +1,431 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol01-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol01-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol02-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol02-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol03-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol03-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol04-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol04-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol05-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol05-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol06-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol06-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol07-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol07-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol08-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol08-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol09-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol09-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol10-1gi
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol10-1gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol11-5gi
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol11-5gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol12-5gi
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol12-5gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol13-5gi
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol13-5gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol14-5gi
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol14-5gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol15-5gi
+spec:
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol15-5gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol16-10gi
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol16-10gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol17-10gi
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol17-10gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol18-10gi
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol18-10gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol19-10gi
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol19-10gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol20-10gi
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol20-10gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol21-20gi
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol21-20gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol22-20gi
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol22-20gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol23-20gi
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol23-20gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol24-20gi
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol24-20gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol25-20gi
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol25-20gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol26-50gi
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol26-50gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol27-50gi
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol27-50gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol28-50gi
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol28-50gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol29-50gi
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol29-50gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: vol30-50gi
+spec:
+  capacity:
+    storage: 50Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Recycle
+  hostPath:
+    path: /storage/vol30-50gi
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cam-mongo-pv
+  labels:
+    type: cam-mongo
+spec:
+  capacity:
+    storage: 15Gi
+  accessModes:
+     - ReadWriteMany
+  hostPath:
+    path: /storage/kad/CAM_db
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cam-logs-pv
+  labels:
+    type: cam-logs
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+     - ReadWriteMany
+  hostPath:
+    path: /storage/kad/CAM_logs
+---
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: cam-terraform-pv
+  labels:
+    type: cam-terraform
+spec:
+  capacity:
+    storage: 15Gi
+  accessModes:
+     - ReadWriteMany
+  hostPath:
+    path: /storage/kad/CAM_terraform

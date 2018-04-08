@@ -1,0 +1,31 @@
+Open 2 windows in Terminal
+
+1) Run a little web app
+
+ kubectl run php-apache --image=gcr.io/google_containers/hpa-example --requests=cpu=500m,memory=500M --expose --port=80
+
+2) Turn on autoscaling
+
+  kubectl autoscale deployment php-apache --cpu-percent=50 --min=1 --max=10
+
+3) Check to see that the autoscaling is configured 
+
+   kubectl get hpa (second window)
+
+4)  Run the load-generator app
+
+kubectl run -i --tty load-generator --image=busybox /bin/sh  
+
+ENTER THIS AT THE # PROMPT
+
+while true; do wget -q -O- http://php-apache.default.svc.cluster.local; done
+
+After 3 minutes, the system will scale up
+
+5) Check to see that the system autoscaled up after 3 minutes 
+
+   kubectl get hpa (second window)
+
+6) Ctrl C out of the while loop (first window)
+
+After 5 minutes, the system will scale down 

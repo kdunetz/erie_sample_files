@@ -11,6 +11,8 @@ kubectl logs <PODNAME> -n default
 kubectl describe pods <PODNAME> -n default
 
 
+
+
 DEPLOYMENT COMMANDS
 
 kubectl get deployments  -n default
@@ -18,6 +20,7 @@ kubectl get deployments  -n default -o wide
 kubectl get deployments  -n default -o yaml
 kubectl describe deployment deleteme-microclimate-ibm-microclimate -n default
 kubectl edit deployment hello-icp-kad 
+kubectl scale deployment hello-icp-kad --replicas=1
 
 OTHER COMMANDS
 

@@ -1,0 +1,39 @@
+Do all this in the VM environment
+
+Go to bluedemos.com... and request an ICP demo for 4 hours
+Once you receive the confirmation email, log in and start the VM
+
+git clone https://github.com/kdunetz/erie_sample_files.git
+
+UI Practice
+
+1) Start up ICP, log in as admin/admin
+
+2) Go into ICP, and instantiate the Node JS Chart
+    a) Go to Catalog/Helm Charts
+    b) Search for Node JS Helm Chart
+
+3) Scale the Deployment
+    a) Go to Workloads, search for node_js
+    b) Click on ... control..and Select "Scale"...add more pods, remove pods
+
+4) Remove the Node JS deployment
+    a) Go to Workloads/Helm Releases
+    b) Click on ... control, and select Remove
+
+
+Command line Practice
+
+cd into erie_sample_files
+
+Try various command line options in file kubectl_commands.sample
+
+5) If you don't know Docker
+
+Try various command line options in file docker_commands.sample
+
+6) Go through each command in kubectl_command.samples
+
+7) Run through a couple version of deploy.yaml files
+
+8) Run the rollout and rollback script
