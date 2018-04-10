@@ -19,14 +19,22 @@ UI Practice
     a) Go to Workloads/Helm Releases
     b) Click on ... control, and select Remove 
 
-4)  
-
 Command line Practice
 
-cd into erie_sample_files
+5) cd into erie_sample_files
 
 Try various command line options in file kubectl_commands.sample
 
-5) If you don't know Docker
+6) If you don't know Docker
 
 Try various command line options in file docker_commands.sample
+
+7) Try Autoscaling - Instructions in "how_to_do_autoscaling"
+
+8) Try rollout and rollback - Instructions in "how_to_rollout_and_rollback"
+
+
+OTHER LABS TO TRY
+
+https://www.ibm.com/cloud/garage/tutorials/cloudnative-microservices-cloud-private
+https://www.ibm.com/cloud/garage/tutorials/cloud-private-jenkins-pipeline
